@@ -1,0 +1,35 @@
+2025-08-05 09:47:19 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 13460 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 09:47:19 INFO  [CalendarApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2025-08-05 09:47:36 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 17.531 seconds (process running for 19.64)
+2025-08-05 09:58:22 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 6952 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 09:58:22 INFO  [CalendarApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2025-08-05 09:58:38 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 16.485 seconds (process running for 18.593)
+2025-08-05 10:08:52 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 11612 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 10:08:52 INFO  [CalendarApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2025-08-05 10:08:59 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 6.67 seconds (process running for 8.737)
+2025-08-05 11:02:56 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 7380 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 11:02:56 INFO  [CalendarApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2025-08-05 11:03:02 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 6.892 seconds (process running for 8.998)
+2025-08-05 14:15:49 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 4332 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 14:15:49 INFO  [CalendarApplicationTests] - The following 1 profile is active: "local"
+2025-08-05 14:15:56 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 8.214 seconds (process running for 10.521)
+2025-08-05 14:20:35 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 2696 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 14:20:35 INFO  [CalendarApplicationTests] - The following 1 profile is active: "local"
+2025-08-05 14:20:42 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 7.448 seconds (process running for 9.808)
+2025-08-05 14:36:23 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 12016 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 14:36:23 INFO  [CalendarApplicationTests] - The following 1 profile is active: "dev"
+2025-08-05 14:39:17 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 8600 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 14:39:17 INFO  [CalendarApplicationTests] - The following 1 profile is active: "dev"
+2025-08-05 14:39:25 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 8.286 seconds (process running for 10.756)
+2025-08-05 14:46:13 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 14928 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 14:46:13 INFO  [CalendarApplicationTests] - The following 1 profile is active: "prod"
+2025-08-05 14:46:22 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 10.361 seconds (process running for 12.989)
+2025-08-05 15:04:16 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 13740 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-05 15:04:16 INFO  [CalendarApplicationTests] - The following 1 profile is active: "local"
+2025-08-05 15:04:25 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 9.846 seconds (process running for 12.398)
+2025-08-06 09:41:05 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 12748 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-06 09:41:05 INFO  [CalendarApplicationTests] - The following 1 profile is active: "local"
+2025-08-06 09:41:13 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 8.569 seconds (process running for 10.776)
+2025-08-06 09:50:46 INFO  [CalendarApplicationTests] - Starting CalendarApplicationTests using Java 21.0.7 with PID 17792 (started by C200 in D:\kmh\spring_boot\pjt_intellij\calendar\calendar)
+2025-08-06 09:50:46 INFO  [CalendarApplicationTests] - The following 1 profile is active: "local"
+2025-08-06 09:50:53 INFO  [CalendarApplicationTests] - Started CalendarApplicationTests in 7.596 seconds (process running for 9.858)

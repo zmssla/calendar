@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.office.calendar.member.mapper.MemberMapper">
+
+    <cache />
+
+    <!-- 공통 SQL -->
+    <sql id="baseSelectFields">
+        SELECT * FROM USER_MEMBER
+    </sql>
+
+    <select id="isMember"
+            parameterType="String"
+            resultType="Boolean">
+
+        SELECT
+            COUNT(*)
+        FROM
+            USER_MEMBER
+        WHERE
+            ID = #{id}
+
+    </select>
+
+    <insert id="insertMember">
+
+        INSERT INTO
+        USER_MEMBER(ID, PW, MAIL, PHONE)
+        VALUES(#{memberDto.id}, #{encodedPW}, #{memberDto.mail}, #{memberDto.phone})
+
+    </insert>
+
+    <select id="selectMemberByID"
+            parameterType="String"
+            resultType="MemberDto">
+
+<!--        SELECT * FROM USER_MEMBER-->
+        <include refid="baseSelectFields" />
+        WHERE ID = #{id}
+
+    </select>
+
+    <update id="updateMember">
+        UPDATE
+            USER_MEMBER
+        SET
+            PW = #{encodedPW},
+            MAIL = #{memberDto.mail},
+            PHONE = #{memberDto.phone},
+            MOD_DATE = NOW()
+        WHERE
+            NO = #{memberDto.no}
+    </update>
+
+    <select id="selectMemberByIdAndMail"
+            parameterType="MemberDto"
+            resultType="MemberDto">
+
+<!--        SELECT * FROM USER_MEMBER-->
+        <include refid="baseSelectFields" />
+        WHERE ID = #{id} AND MAIL = #{mail}
+
+    </select>
+    
+    <update id="updatePassword">
+        UPDATE
+            USER_MEMBER
+        SET
+            PW = #{encode},
+            MOD_DATE = NOW()
+        WHERE
+            ID = #{id}
+    </update>
+    
+</mapper>
